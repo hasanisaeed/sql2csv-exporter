@@ -1,0 +1,6 @@
+.venv310
+.env
+*.pyc
+__pycache__
+.idea
+.vscode

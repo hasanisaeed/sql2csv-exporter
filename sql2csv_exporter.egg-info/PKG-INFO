@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: sql2csv-exporter
+Version: 0.1.0
+Requires-Dist: pandas
+Requires-Dist: python-dotenv
+Provides-Extra: postgres
+Requires-Dist: psycopg2; extra == "postgres"
+Provides-Extra: mysql
+Requires-Dist: mysql-connector-python; extra == "mysql"
+Provides-Extra: sqlite
+Requires-Dist: pysqlite3; extra == "sqlite"
